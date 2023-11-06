@@ -5,7 +5,7 @@ import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
-    <div>
+    <div className={styles.foobar}>
       <NxWelcome title="product" />
     </div>
   );
